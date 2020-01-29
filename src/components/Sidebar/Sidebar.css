@@ -1,0 +1,48 @@
+.Side-head {
+  position:fixed;
+  top: 140px;
+  height: 60px;
+  width: 21%;
+  left:62%;
+}
+
+.Side-photo {
+  border-radius: 50%;
+  background-image: url(../../resource/photo.jpg);
+  background-size: 50px 50px;
+  position: absolute;
+  height: 50px;
+  width: 50px; 
+  left: 8px;
+}
+
+.Side-intro {
+  position:absolute;
+  top: 10px;
+  left: 70px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Side-story {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position:absolute;
+  top: 75px;
+  height: 200px;
+  width: 100%;
+}
+
+.Side-suggestion {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position:absolute;
+  top: 300px;
+  height: 250px;
+  width: 100%;
+}
+

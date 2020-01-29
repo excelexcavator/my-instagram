@@ -1,0 +1,50 @@
+.Port {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position:absolute;
+  top: 110px;
+  height: 700px;
+  width: 43%;
+  left:17%;
+}
+
+.Port-head {
+  display: flex;
+  border-radius: 6px;
+  background-color: #ffffff;
+  flex-direction: row;
+  height: 59px;
+  width: 100%; 
+}
+
+.Port-photo {
+  border-radius: 50%;
+  background-image: url(../../resource/photo.jpg);
+  background-size: 45px 45px;
+  position: absolute;
+  top: 7px;
+  height: 45px;
+  width: 45px; 
+  left: 15px;
+}
+
+.Port-image {
+  display: block;
+  background-position: 0px 0px;
+  background-image: url(../../resource/image_star.jpg);
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.Port-comment {
+  background-position: 0px 5px;
+  background-image: url(../../resource/icon_compass.png);
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 6%;
+  text-indent: -1000%;
+}
