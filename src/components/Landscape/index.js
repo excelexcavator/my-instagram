@@ -1,29 +1,23 @@
-import React from "react";
-import "./Post.css";
+import React, {Component} from "react";
+import "./App.css";
 
-class Post extends React.Component{
-    render(){
-        return (
-           <nav className="Nav">
-             <div className="Nav-menus">
-                 <a className="Nav-logo" href="/">
-                 </a>
-			
-                 <div className="Nav-space">
-                 </div>
-			
-                 <div className="Nav-gallery">
-                 </div>
-			
-                 <div className="Nav-favorite">
-                 </div>
-			
-                 <div className="Nav-profile">
-                 </div>
-             </div>
-           </nav>
-       );
-    }   
+
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+
+
+class App extends Component{
+  render(){
+    return (
+        <div className="App">
+          <Header />
+		  <div className="App-main">
+			<Portrait />
+			<Sidebar />
+          </div>
+        </div>
+    );
+  }
 }
 
-export default Header;
+export default App;

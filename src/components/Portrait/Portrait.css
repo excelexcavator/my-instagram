@@ -1,16 +1,24 @@
+.Ports {
+  background-color: #fafafa;
+  position:absolute;
+  top: 71px;
+  height: 100%;
+  width: 100%;
+}
+
 .Port {
   background-color: #ffffff;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position:absolute;
-  top: 110px;
+  top: 140px;
   height: 700px;
   width: 43%;
   left:17%;
 }
 
 .Port-head {
-  display: flex;
+  display: absolute;
   border-radius: 6px;
   background-color: #ffffff;
   flex-direction: row;
@@ -18,9 +26,20 @@
   width: 100%; 
 }
 
+.Port-name {
+  display: absolute;
+  flex-direction: row;
+  height: 30px;
+  position: absolute;
+  top: 7px;
+  left: 65px; 
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .Port-photo {
   border-radius: 50%;
-  background-image: url(../../resource/photo.jpg);
+  background-image: url(../../resource/logo_whova.png);
   background-size: 45px 45px;
   position: absolute;
   top: 7px;
@@ -30,21 +49,25 @@
 }
 
 .Port-image {
-  display: block;
-  background-position: 0px 0px;
-  background-image: url(../../resource/image_star.jpg);
-  background-size: 100% 500px;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 100%;
+  position: absolute;
+  top: 60px;
+  max-height: 500px;
+  width: 100%; 
+  left: 0px;
+}
+
+.Port-button {
+	border: none;
+	height: 40px;
+	width: 40px;
+	outline: none;
 }
 
 .Port-comment {
-  background-position: 0px 5px;
-  background-image: url(../../resource/icon_compass.png);
-  background-size: 28px 28px;
-  background-repeat: no-repeat;
+  position: absolute;
+  float: left;
   height: 35px;
-  width: 6%;
-  text-indent: -1000%;
+  width: 100%;
+  bottom: 50px;
+  font-size: 15px;
 }
