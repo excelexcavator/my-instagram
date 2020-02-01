@@ -12,7 +12,7 @@
   font-size: calc(10px + 2vmin);
 }
 
-.Port {
+.Land {
   background-color: #ffffff;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@
   left:15%;
 }
 
-.Port-head {
+.Land-head {
   display: absolute;
   border-radius: 6px;
   background-color: #ffffff;
@@ -32,7 +32,7 @@
   width: 100%; 
 }
 
-.Port-name {
+.Land-name {
   display: absolute;
   flex-direction: row;
   height: 30px;
@@ -43,7 +43,7 @@
   font-size: 15px;
 }
 
-.Port-photo {
+.Land-photo {
   border-radius: 50%;
   background-image: url(./resource/logo_whova.png);
   background-size: 45px 45px;
@@ -54,7 +54,7 @@
   left: 15px;
 }
 
-.Port-image {
+.Land-image {
   position: absolute;
   top: 60px;
   max-height: 500px;
@@ -62,14 +62,14 @@
   left: 0px;
 }
 
-.Port-button {
+.Land-button {
 	border: none;
 	height: 40px;
 	width: 40px;
 	outline: none;
 }
 
-.Port-comment {
+.Land-comment {
   display: flex;
   position: static;
   top: 30px;
@@ -80,11 +80,11 @@
   right: 0px;;
 }
 
-.Port-addcomment {
+.Land-addcomment {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
-  position: static;
+  position: absolute;
   outline: none;
   height: 40px;
   width: 35%;
@@ -93,7 +93,7 @@
   font-size: 15px;
 }
 
-.Port-addcomment2 {
+.Land-addcomment2 {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
@@ -103,7 +103,7 @@
   font-size: 15px;
 }
 
-.Port-post {
+.Land-post {
   outline:none;
   position: absolute;
   right: 5px;

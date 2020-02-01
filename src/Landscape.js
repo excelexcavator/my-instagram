@@ -49,9 +49,9 @@ class AddComment extends React.Component {
 	  
   render() {
 	  return (
-		<div className="Port-addcomment">
-		  <input className="Port-addcomment2" value={this.state.content} onChange={this.handleComment.bind(this)} />
-          <button className="Port-post" onClick={this.handleSubmit.bind(this)} > Post
+		<div className="Land-addcomment">
+		  <input className="Land-addcomment2" value={this.state.content} onChange={this.handleComment.bind(this)} />
+          <button className="Land-post" onClick={this.handleSubmit.bind(this)} > Post
           </button>
 		</div>
 	  )
@@ -61,7 +61,7 @@ class AddComment extends React.Component {
 class ShowComment extends React.Component {
   render () {
 	  return (
-      <div className="Port-comment">
+      <div className="Land-comment">
 		<b>{this.props.comment.username} </b>：{this.props.comment.content}
 		
       </div>
@@ -105,11 +105,11 @@ class Portrait extends React.Component{
   	     ]
 		 
         return (
-           <div className="Port">
-             <div className="Port-head">
-				<img className="Port-photo" src={require("./resource/logo_whova.png")}>
+           <div className="Land">
+             <div className="Land-head">
+				<img className="Land-photo" src={require("./resource/logo_whova.png")}>
 				</img> 
-				<p className="Port-name"> Whova
+				<p className="Land-name"> Whova
 				</p>
              </div>
 			
@@ -118,15 +118,15 @@ class Portrait extends React.Component{
 			
 			 <div width="100%">
 			 	<Like />
-			 	<button className="Port-button" style={{position:"flex",float:"left"}}>
+			 	<button className="Land-button" style={{position:"flex",float:"left"}}>
 					<img src={require("./resource/icon_comment.png")} width="100%">
 			 		</img>
 			 	</button>
-			 	<button className="Port-button" style={{position:"flex",float:"left"}}>
+			 	<button className="Land-button" style={{position:"flex",float:"left"}}>
 			 	   <img src={require("./resource/icon_navigate.png")} width="100%">
 			 	   </img>
 				 </button>
-				 <button className="Port-button" style={{position:"flex",float:"right"}}>
+				 <button className="Land-button" style={{position:"flex",float:"right"}}>
 			 	   <img src={require("./resource/icon_flag.png")} width="100%">
 					</img>
 				 </button>
