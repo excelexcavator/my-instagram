@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-main {
+  background-color: #fafafa;
+  min-height: 1000vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Port {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position:absolute;
+  top: 140px;
+  height: 550px;
+  width: 70%;
+  left:15%;
+}
+
+.Port-head {
+  display: absolute;
+  border-radius: 6px;
+  background-color: #ffffff;
+  flex-direction: row;
+  height: 59px;
+  width: 100%; 
+}
+
+.Port-name {
+  display: absolute;
+  flex-direction: row;
+  height: 30px;
+  position: absolute;
+  top: 7px;
+  left: 65px; 
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Port-photo {
+  border-radius: 50%;
+  background-image: url(./resource/logo_whova.png);
+  background-size: 45px 45px;
+  position: absolute;
+  top: 7px;
+  height: 45px;
+  width: 45px; 
+  left: 15px;
+}
+
+.Port-image {
+  position: absolute;
+  top: 60px;
+  max-height: 500px;
+  width: 60%; 
+  left: 0px;
+}
+
+.Port-button {
+	border: none;
+	height: 40px;
+	width: 40px;
+	outline: none;
+}
+
+.Port-comment {
+  display: flex;
+  position: static;
+  top: 30px;
+  left: 65%;
+  height: 25px;
+  width: 35%;
+  font-size: 15px;
+  right: 0px;;
+}
+
+.Port-addcomment {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: static;
+  outline: none;
+  height: 40px;
+  width: 35%;
+  bottom: 0px;
+  right: 0px;
+  font-size: 15px;
+}
+
+.Port-addcomment2 {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  font-size: 15px;
+}
+
+.Port-post {
+  outline:none;
+  position: absolute;
+  right: 5px;
+  height: 35px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10%;
+  background-color: #5898e9;
+  
+}

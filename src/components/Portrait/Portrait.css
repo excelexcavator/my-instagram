@@ -12,7 +12,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   position:absolute;
   top: 140px;
-  height: 700px;
+  height: 750px;
   width: 43%;
   left:17%;
 }
@@ -63,11 +63,44 @@
 	outline: none;
 }
 
+.Port-button-small {
+	border: none;
+	height: 25px;
+	width: 25px;
+	outline: none;
+	position: relative;
+	left:-30px;
+}
+
 .Port-comment {
-  position: absolute;
-  float: left;
-  height: 35px;
+  display: flex;
+  position: relative;
+  height: 25px;
   width: 100%;
-  bottom: 50px;
   font-size: 15px;
+  left: 120px;
+}
+
+.Port-addcomment {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 0px;
+  outline: none;
+  height: 40px;
+  width: 99%;
+  bottom: 0px;
+  font-size: 15px;
+}
+
+.Port-post {
+  outline:none;
+  position: absolute;
+  right: 5px;
+  height: 35px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10%;
+  background-color: #5898e9;
+  
 }

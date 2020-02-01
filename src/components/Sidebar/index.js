@@ -11,8 +11,10 @@ class Sidebar extends React.Component{
 				excelexcavator
 			 </a>
 			 <div className="Side-story">
+				Stories
 			 </div>
 			 <div className="Side-suggestion">
+				Suggestions
 			 </div>
            </div>
        );
